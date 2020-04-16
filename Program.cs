@@ -12,7 +12,7 @@ namespace GuessingGame
             Console.Write("Enter a level number here: ");
             level = Convert.ToInt32(Console.ReadLine());
             if (level == 1){
-                // easy
+                // easy level
                 Console.WriteLine("You have selected Easy Level");
                 int secretNunber = 6;
                 int guess = 0;
@@ -20,11 +20,13 @@ namespace GuessingGame
                 int guessLimit = 6;
                 bool outOfGuesses = false;
 
+                // Check if the guess is correct and user is still within guess limit
                 while(guess != secretNunber && !outOfGuesses){
                     if(guessCount < guessLimit){
                         try
                         {
                             Console.Write("Guess a number between 1 - 10: ");
+                            // converts guess input to integer
                             guess = Convert.ToInt32(Console.ReadLine());
                             if (guess == secretNunber){
                                 Console.WriteLine("You got it right!");
@@ -39,12 +41,13 @@ namespace GuessingGame
                         }                  
 
                             }
+                        // If the user enters anything other than a number
                         catch (Exception)
                         {
                             Console.WriteLine("The value you entered is not a number.");
                             
                             }
-
+                    // When the user is out of guess limit
                     } else {
                         outOfGuesses = true;
                         Console.WriteLine("Game over!");
