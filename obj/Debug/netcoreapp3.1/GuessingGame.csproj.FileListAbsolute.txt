@@ -1,0 +1,11 @@
+/home/ogunsola/GuessingGame/obj/Debug/netcoreapp3.1/GuessingGame.csprojAssemblyReference.cache
+/home/ogunsola/GuessingGame/obj/Debug/netcoreapp3.1/GuessingGame.AssemblyInfoInputs.cache
+/home/ogunsola/GuessingGame/obj/Debug/netcoreapp3.1/GuessingGame.AssemblyInfo.cs
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame.deps.json
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame.runtimeconfig.json
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame.runtimeconfig.dev.json
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame.dll
+/home/ogunsola/GuessingGame/bin/Debug/netcoreapp3.1/GuessingGame.pdb
+/home/ogunsola/GuessingGame/obj/Debug/netcoreapp3.1/GuessingGame.dll
+/home/ogunsola/GuessingGame/obj/Debug/netcoreapp3.1/GuessingGame.pdb
