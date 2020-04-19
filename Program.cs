@@ -6,6 +6,7 @@ namespace GuessingGame
     {
         static void Main(string[] args)
         {   
+            Random rnd = new Random();
             int level = 0;
             Console.WriteLine("Welcome to our guessing game...");
             Console.WriteLine("Please, select the level you wish to play.\nPress 1 for Easy.\nPress 2 for Medium \nPress 3 for Hard");
@@ -14,7 +15,7 @@ namespace GuessingGame
             if (level == 1){
                 // easy level
                 Console.WriteLine("You have selected Easy Level");
-                int secretNunber = 6;
+                int secretNunber = rnd.Next(1, 11);
                 int guess = 0;
                 int guessCount = 0;
                 int guessLimit = 6;
@@ -60,7 +61,7 @@ namespace GuessingGame
             else if (level == 2){
                 // Medium
                 Console.WriteLine("You have selected Medium Level");
-                int secretNunber = 12;
+                int secretNunber = rnd.Next(1, 21);
                 int guess = 0;
                 int guessCount = 0;
                 int guessLimit = 4;
@@ -101,7 +102,7 @@ namespace GuessingGame
             else if (level == 3){
                 // Hard
                 Console.WriteLine("You have selected Hard Level");
-                int secretNunber = 43;
+                int secretNunber = rnd.Next(1,51);
                 int guess = 0;
                 int guessCount = 0;
                 int guessLimit = 3;
